@@ -19,5 +19,14 @@ The ISO for NixOS can be downloaded from the website:
 https://nixos.org/download/  
 
 The installation requires internet access. NixOS can be installed from the live ISO using the Installationskript in this repo. You can also find config files for Chromium here.
-If there is any trouble with the installscript (tested a while ago and cant remember how well it ran) just use the skript as a guide and follow the commands one by one. Happy for any Feedback
+To perform the setup, you'll need a current NixOS image on a USB drive, onto which you'll copy the configuration files from this repository. 
+
+! Important !
+
+Before proceeding, you must modify the admin password in the kiosk-configuration.json file!
+
+Installation can be initiated using the commands from the installation script. Note that while running the script manually is recommended (as automated execution may encounter errors), all individual commands are correct. After completing the initial setup, launch once, install the KIOSK AddOn in Chromium, and load the configuration file. If there is any trouble with the installscript (tested a while ago and cant remember how well it ran) just use the skript as a guide and follow the commands one by one. 
+
+Happy for any Feedback!
+
 
