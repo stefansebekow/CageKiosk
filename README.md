@@ -31,6 +31,7 @@ With `nixos-rebuild switch`, you can activate the changes afterward. This proced
 Installation can be initiated using the commands from the installation script. Note that while running the script manually is recommended (as automated execution may encounter errors), all individual commands are correct. After completing the initial setup, launch once, install the KIOSK AddOn in Chromium, and load the configuration file. If there is any trouble with the installscript (tested a while ago and cant remember how well it ran) just use the skript as a guide and follow the commands one by one. 
 
 
+Many thanks to Peter for completing this and to SergeantBiggs for the initial reference to Cage and the NixOs crash course :)
 
 Happy for any Feedback!
 
